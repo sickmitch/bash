@@ -1,7 +1,6 @@
 #
 # ~/.bashrc
 #
-colorscript random
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 alias ll="ls -lah"
