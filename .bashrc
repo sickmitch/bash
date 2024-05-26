@@ -7,10 +7,11 @@ alias grep='grep --color=auto'
 alias nv='nvim'
 alias vi='vim'
 alias cat='bat'
+alias scrcpy='scrcpy --tcpip=192.168.1.51'
 eval "$(starship init bash)"
 
 # ---- Eza (better ls) -----
-alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias ls="eza --color=always --git --icons"
 alias ll="eza --color=always --long --git --icons=always"
 
 #Autojump
